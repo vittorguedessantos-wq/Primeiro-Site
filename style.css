@@ -1,0 +1,23 @@
+  body{
+            background-color: black;
+            color: white;
+        }
+
+        li{
+            font-size: 15px;
+            color: rgb(0, 162, 255);
+        }
+
+        #html{
+            color: rgb(255, 153, 0);
+        }
+        #css{
+            color: dodgerblue;
+        }
+        #javascript{
+            color: yellow;
+        }
+        /*
+         2 li como aul claro
+         3 li como amarelo
+        /* 

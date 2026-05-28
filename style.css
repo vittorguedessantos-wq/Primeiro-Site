@@ -16,8 +16,17 @@
         }
         #javascript{
             color: yellow;
+        
         }
-        /*
-         2 li como aul claro
-         3 li como amarelo
-        /* 
+        
+        button{
+           background-color: pink;
+           padding: 10px 20px; /*ESPAÇO INTERNO*/
+           margin: 10px; /*ESPÇO EXTERNO*/
+           border-radius: 10px; /*BORDA*/
+         }
+
+         span{
+            front-sie: 20px
+            color aliceblue
+         }

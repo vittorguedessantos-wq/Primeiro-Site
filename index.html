@@ -31,6 +31,17 @@
        <h3>Sobre mim</h3>
       <p>Me chamo Vittor, sou um aluno de programação</p>
       <img src="image.png" alt="" width="500">
+      <button>❤️<span>0</span> </button>
     </div>
+
+    <script>
+      const botão = document.querySelector("button")
+      botao.addEventListener ('click', curtir)
+
+      function curtir(){
+         let curtidas = document.querySelector("span")
+         curtidas.textContent++;
+      }
+    </script>
 </body>
 </html>

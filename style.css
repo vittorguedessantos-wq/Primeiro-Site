@@ -1,33 +1,52 @@
-  body{
-            background-color: black;
-            color: white;
-        }
+body{
+    background-color: black;
+    color: white;
 
-        li{
-            font-size: 15px;
-            color: rgb(0, 162, 255);
-        }
+}
 
-        #html{
-            color: rgb(255, 153, 0);
-        }
-        #css{
-            color: dodgerblue;
-        }
-        #javascript{
-            color: yellow;
-        
-        }
-        
-        button{
-           background-color: pink;
-           padding: 10px 20px; /*ESPAÇO INTERNO*/
-           margin: 10px; /*ESPÇO EXTERNO*/
-           border-radius: 10px; /*BORDA*/
-         }
+li{
+    font-size: 18px;
+    color: red;
+}
 
-         span{
-            front-sie: 20px
-            color aliceblue
-         }
+#html{
+    color: rgb(255, 128, 0);
+}
+
+#css{
+    color: rgb(103, 171, 255);
+}
+
+#js{
+    color: yellow;
+}
+
+button{
+    background-color: pink;
+    padding: 10px 20px; /* ESPAÇO INTERNO */
+    margin: 10px; /* ESPAÇO EXTERNO */
+    border-radius: 10px; /* BORDA */
+    max-width: 100px;
+}
+
+span{
+    font-size: 20px;
+    color: rgb(119, 0, 255);
+}
+
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#acessivel{
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+}
          
+hr{
+    width: 60%;
+}

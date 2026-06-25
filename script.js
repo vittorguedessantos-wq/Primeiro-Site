@@ -1,17 +1,22 @@
-   const botão = document.querySelector("button")
-      botao.addEventListener ('click', curtir)
+   const botao = document.querySelector("button")
+botao.addEventListener('click', curtir)
 
-      function curtir(){
-         let curtidas = document.querySelector("span")
-         curtidas.textContent++;
-      }
+function curtir() {
+    let curtidas = document.querySelector("span")
+    curtidas.textContent++;
+}
 
 
-      // BOTAO DO TAMANHO
-      const tamanho = document.getElementById("tamanho")
-      tamanho.addEventListener("click", aumentarFonte)
+// BOTÃO DO TAMANHO
+const tamanho = document.getElementById("tamanho")
+tamanho.addEventListener("click", aumentarFonte)
+let fonte = 16;
 
-      //FUNCAO
-      function aumentarFonte(){
-          document.body.style.fontSize = fonte + "px";
-      }
+//FUNÇÃO
+function aumentarFonte(){
+    fonte++;
+    document.body.style.fontSize = fonte + "px";
+}
+
+// BOTÃO DO CONTRASTE
+// FUNÇÃO DO CONTRASTE
